@@ -21,6 +21,28 @@ static void *s_userInfoKey = &s_userInfoKey;
 
 #pragma mark Accessors and mutators
 
+- (UIViewController *)viewController
+{
+    if ([self.nextResponder isKindOfClass:[UIViewController class]]) {
+        return (UIViewController *)self.nextResponder;
+    }
+    else {
+        return nil;
+    }
+}
+
+- (UIViewController *)nearestViewController
+{
+    UIResponder *responder = self.nextResponder;
+    while (responder) {
+        if ([responder isKindOfClass:[UIViewController class]]) {
+            return (UIViewController *)responder;
+        }
+        responder = responder.nextResponder;
+    }
+    return nil;
+}
+
 - (NSString *)tag_hls
 {
     return objc_getAssociatedObject(self, s_tagKey);
