@@ -1838,7 +1838,7 @@
 				GCC_PREFIX_HEADER = "CoconutKit-demo-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "CoconutKit-demo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DHLS_LOGGER";
 				PRODUCT_NAME = "CoconutKit-demo-ios4";
 			};
@@ -1853,7 +1853,7 @@
 				GCC_PREFIX_HEADER = "CoconutKit-demo-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
 				INFOPLIST_FILE = "CoconutKit-demo-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "CoconutKit-demo-ios4";
 				VALIDATE_PRODUCT = YES;
 			};
