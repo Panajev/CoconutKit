@@ -63,7 +63,7 @@
 		6F93C4EE140442BB00FEC9B0 /* NSObject+HLSExtensionsTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F93C4ED140442BB00FEC9B0 /* NSObject+HLSExtensionsTestCase.m */; };
 		6F948C3214D6E844003BF765 /* UINavigationController+HLSActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F948C2F14D6E844003BF765 /* UINavigationController+HLSActionSheet.m */; };
 		6F97E17D15E60C8700EF6F62 /* HLSObjectAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F97E17C15E60C8400EF6F62 /* HLSObjectAnimation.m */; };
-		6FA06527177A21F50097582B /* HLSViewObjectBindingContext.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA06520177A21F50097582B /* HLSViewObjectBindingContext.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6FA06527177A21F50097582B /* HLSViewBindingInformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA06520177A21F50097582B /* HLSViewBindingInformation.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		6FA06528177A21F50097582B /* UILabel+HLSViewBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA06522177A21F50097582B /* UILabel+HLSViewBinding.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		6FA06529177A21F50097582B /* UIView+HLSViewBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA06524177A21F50097582B /* UIView+HLSViewBinding.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		6FA0652A177A21F50097582B /* UIViewController+HLSViewBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FA06526177A21F50097582B /* UIViewController+HLSViewBinding.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
@@ -287,14 +287,15 @@
 		6F97E17515E6055A00EF6F62 /* HLSAnimationStep+Friend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "HLSAnimationStep+Friend.h"; sourceTree = "<group>"; };
 		6F97E17C15E60C8400EF6F62 /* HLSObjectAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLSObjectAnimation.m; sourceTree = "<group>"; };
 		6F97E17E15E60CAF00EF6F62 /* HLSObjectAnimation+Friend.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HLSObjectAnimation+Friend.h"; sourceTree = "<group>"; };
-		6FA0651F177A21F50097582B /* HLSViewObjectBindingContext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSViewObjectBindingContext.h; sourceTree = "<group>"; };
-		6FA06520177A21F50097582B /* HLSViewObjectBindingContext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLSViewObjectBindingContext.m; sourceTree = "<group>"; };
+		6FA0651F177A21F50097582B /* HLSViewBindingInformation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSViewBindingInformation.h; sourceTree = "<group>"; };
+		6FA06520177A21F50097582B /* HLSViewBindingInformation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLSViewBindingInformation.m; sourceTree = "<group>"; };
 		6FA06521177A21F50097582B /* UILabel+HLSViewBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+HLSViewBinding.h"; sourceTree = "<group>"; };
 		6FA06522177A21F50097582B /* UILabel+HLSViewBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+HLSViewBinding.m"; sourceTree = "<group>"; };
 		6FA06523177A21F50097582B /* UIView+HLSViewBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLSViewBinding.h"; sourceTree = "<group>"; };
 		6FA06524177A21F50097582B /* UIView+HLSViewBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HLSViewBinding.m"; sourceTree = "<group>"; };
 		6FA06525177A21F50097582B /* UIViewController+HLSViewBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HLSViewBinding.h"; sourceTree = "<group>"; };
 		6FA06526177A21F50097582B /* UIViewController+HLSViewBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HLSViewBinding.m"; sourceTree = "<group>"; };
+		6FA06530177AA6E40097582B /* UIView+HLSViewBindingFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLSViewBindingFriend.h"; sourceTree = "<group>"; };
 		6FA5BDA015E2923900E5182E /* HLSLayerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSLayerAnimation.h; sourceTree = "<group>"; };
 		6FA5BDA115E2923900E5182E /* HLSLayerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLSLayerAnimation.m; sourceTree = "<group>"; };
 		6FA74D41140500CC0043693E /* UIView+HLSExtensionsTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLSExtensionsTestCase.h"; sourceTree = "<group>"; };
@@ -691,12 +692,13 @@
 		6FA0651E177A21F50097582B /* Bindings */ = {
 			isa = PBXGroup;
 			children = (
-				6FA0651F177A21F50097582B /* HLSViewObjectBindingContext.h */,
-				6FA06520177A21F50097582B /* HLSViewObjectBindingContext.m */,
+				6FA0651F177A21F50097582B /* HLSViewBindingInformation.h */,
+				6FA06520177A21F50097582B /* HLSViewBindingInformation.m */,
 				6FA06521177A21F50097582B /* UILabel+HLSViewBinding.h */,
 				6FA06522177A21F50097582B /* UILabel+HLSViewBinding.m */,
 				6FA06523177A21F50097582B /* UIView+HLSViewBinding.h */,
 				6FA06524177A21F50097582B /* UIView+HLSViewBinding.m */,
+				6FA06530177AA6E40097582B /* UIView+HLSViewBindingFriend.h */,
 				6FA06525177A21F50097582B /* UIViewController+HLSViewBinding.h */,
 				6FA06526177A21F50097582B /* UIViewController+HLSViewBinding.m */,
 			);
@@ -1269,7 +1271,7 @@
 				6F255E5B1712E875007BFC96 /* HLSFakeConnection.m in Sources */,
 				6FC8EDBB176EC89E000B3BE7 /* NSNumber+HLSExtensions.m in Sources */,
 				6FC8EDBE176ECD2C000B3BE7 /* NSNumber+HLSExtensionsTestCase.m in Sources */,
-				6FA06527177A21F50097582B /* HLSViewObjectBindingContext.m in Sources */,
+				6FA06527177A21F50097582B /* HLSViewBindingInformation.m in Sources */,
 				6FA06528177A21F50097582B /* UILabel+HLSViewBinding.m in Sources */,
 				6FA06529177A21F50097582B /* UIView+HLSViewBinding.m in Sources */,
 				6FA0652A177A21F50097582B /* UIViewController+HLSViewBinding.m in Sources */,
