@@ -143,6 +143,10 @@
 		6F159C3715A5B7B00020AFAC /* CoconutKit-resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F159C3215A5B7B00020AFAC /* CoconutKit-resources.bundle */; };
 		6F159C3815A5B7B00020AFAC /* CoconutKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F159C3315A5B7B00020AFAC /* CoconutKit.framework */; };
 		6F159C3915A5B7B00020AFAC /* CoconutKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F159C3315A5B7B00020AFAC /* CoconutKit.framework */; };
+		6F1CE8B2177ED64F0060BC85 /* LabelBindingsDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CE8B0177ED64F0060BC85 /* LabelBindingsDemoViewController.m */; };
+		6F1CE8B3177ED64F0060BC85 /* LabelBindingsDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CE8B0177ED64F0060BC85 /* LabelBindingsDemoViewController.m */; };
+		6F1CE8B4177ED64F0060BC85 /* LabelBindingsDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F1CE8B1177ED64F0060BC85 /* LabelBindingsDemoViewController.xib */; };
+		6F1CE8B5177ED64F0060BC85 /* LabelBindingsDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F1CE8B1177ED64F0060BC85 /* LabelBindingsDemoViewController.xib */; };
 		6F1F4DEE15A1B5F900F65ECF /* SegueLeftPanelDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1F4DED15A1B5F900F65ECF /* SegueLeftPanelDemoViewController.m */; };
 		6F1F4DF215A1B61800F65ECF /* SegueFirstRightPanelDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1F4DF115A1B61800F65ECF /* SegueFirstRightPanelDemoViewController.m */; };
 		6F1F4DF515A1B63300F65ECF /* SegueSecondRightPanelDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1F4DF415A1B63200F65ECF /* SegueSecondRightPanelDemoViewController.m */; };
@@ -354,6 +358,9 @@
 		6F159C3115A5B7B00020AFAC /* CoconutKit_bootstrap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoconutKit_bootstrap.m; sourceTree = "<group>"; };
 		6F159C3215A5B7B00020AFAC /* CoconutKit-resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = "CoconutKit-resources.bundle"; sourceTree = "<group>"; };
 		6F159C3315A5B7B00020AFAC /* CoconutKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoconutKit.framework; sourceTree = "<group>"; };
+		6F1CE8AF177ED64F0060BC85 /* LabelBindingsDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelBindingsDemoViewController.h; sourceTree = "<group>"; };
+		6F1CE8B0177ED64F0060BC85 /* LabelBindingsDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelBindingsDemoViewController.m; sourceTree = "<group>"; };
+		6F1CE8B1177ED64F0060BC85 /* LabelBindingsDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelBindingsDemoViewController.xib; sourceTree = "<group>"; };
 		6F1F4DEC15A1B5F900F65ECF /* SegueLeftPanelDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegueLeftPanelDemoViewController.h; sourceTree = "<group>"; };
 		6F1F4DED15A1B5F900F65ECF /* SegueLeftPanelDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegueLeftPanelDemoViewController.m; sourceTree = "<group>"; };
 		6F1F4DF015A1B61800F65ECF /* SegueFirstRightPanelDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegueFirstRightPanelDemoViewController.h; sourceTree = "<group>"; };
@@ -690,6 +697,16 @@
 			path = Bootstrap;
 			sourceTree = "<group>";
 		};
+		6F1CE8AA177ED5CC0060BC85 /* Bindings */ = {
+			isa = PBXGroup;
+			children = (
+				6F1CE8AF177ED64F0060BC85 /* LabelBindingsDemoViewController.h */,
+				6F1CE8B0177ED64F0060BC85 /* LabelBindingsDemoViewController.m */,
+				6F1CE8B1177ED64F0060BC85 /* LabelBindingsDemoViewController.xib */,
+			);
+			path = Bindings;
+			sourceTree = "<group>";
+		};
 		6F22C75D16A942970081A9A7 /* DynamicLocalization */ = {
 			isa = PBXGroup;
 			children = (
@@ -802,6 +819,7 @@
 			isa = PBXGroup;
 			children = (
 				6F9C459B14C5C30B00824AB2 /* Animation */,
+				6F1CE8AA177ED5CC0060BC85 /* Bindings */,
 				6F9C45A414C5C30B00824AB2 /* Common */,
 				6F9C45D214C5C30B00824AB2 /* Core */,
 				6FB500451705A59C00779DB3 /* Networking */,
@@ -1487,6 +1505,7 @@
 				6F6B0C9C16B3DACF006B718F /* InnerFolder in Resources */,
 				6F718CB216CF8714001498D6 /* ViewEffectsDemoViewController.xib in Resources */,
 				6FB5004C1705A60900779DB3 /* ConnectionDemoViewController.xib in Resources */,
+				6F1CE8B4177ED64F0060BC85 /* LabelBindingsDemoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1564,6 +1583,7 @@
 				6F6B0C9D16B3DACF006B718F /* InnerFolder in Resources */,
 				6F718CB316CF8714001498D6 /* ViewEffectsDemoViewController.xib in Resources */,
 				6FB5004D1705A60900779DB3 /* ConnectionDemoViewController.xib in Resources */,
+				6F1CE8B5177ED64F0060BC85 /* LabelBindingsDemoViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1668,6 +1688,7 @@
 				6F718CB016CF8714001498D6 /* ViewEffectsDemoViewController.m in Sources */,
 				6F53B63516FA321000E01781 /* DemoColors.m in Sources */,
 				6FB5004A1705A60900779DB3 /* ConnectionDemoViewController.m in Sources */,
+				6F1CE8B2177ED64F0060BC85 /* LabelBindingsDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1738,6 +1759,7 @@
 				6F718CB116CF8714001498D6 /* ViewEffectsDemoViewController.m in Sources */,
 				6F53B63616FA321000E01781 /* DemoColors.m in Sources */,
 				6FB5004B1705A60900779DB3 /* ConnectionDemoViewController.m in Sources */,
+				6F1CE8B3177ED64F0060BC85 /* LabelBindingsDemoViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
