@@ -147,6 +147,8 @@
 		6F1CE8B3177ED64F0060BC85 /* LabelBindingsDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CE8B0177ED64F0060BC85 /* LabelBindingsDemoViewController.m */; };
 		6F1CE8B4177ED64F0060BC85 /* LabelBindingsDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F1CE8B1177ED64F0060BC85 /* LabelBindingsDemoViewController.xib */; };
 		6F1CE8B5177ED64F0060BC85 /* LabelBindingsDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F1CE8B1177ED64F0060BC85 /* LabelBindingsDemoViewController.xib */; };
+		6F1CE8C4177EDACB0060BC85 /* DemoFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CE8C3177EDACB0060BC85 /* DemoFormatter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6F1CE8C5177EDACB0060BC85 /* DemoFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1CE8C3177EDACB0060BC85 /* DemoFormatter.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		6F1F4DEE15A1B5F900F65ECF /* SegueLeftPanelDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1F4DED15A1B5F900F65ECF /* SegueLeftPanelDemoViewController.m */; };
 		6F1F4DF215A1B61800F65ECF /* SegueFirstRightPanelDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1F4DF115A1B61800F65ECF /* SegueFirstRightPanelDemoViewController.m */; };
 		6F1F4DF515A1B63300F65ECF /* SegueSecondRightPanelDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1F4DF415A1B63200F65ECF /* SegueSecondRightPanelDemoViewController.m */; };
@@ -361,6 +363,8 @@
 		6F1CE8AF177ED64F0060BC85 /* LabelBindingsDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelBindingsDemoViewController.h; sourceTree = "<group>"; };
 		6F1CE8B0177ED64F0060BC85 /* LabelBindingsDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelBindingsDemoViewController.m; sourceTree = "<group>"; };
 		6F1CE8B1177ED64F0060BC85 /* LabelBindingsDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelBindingsDemoViewController.xib; sourceTree = "<group>"; };
+		6F1CE8C2177EDACB0060BC85 /* DemoFormatter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoFormatter.h; sourceTree = "<group>"; };
+		6F1CE8C3177EDACB0060BC85 /* DemoFormatter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoFormatter.m; sourceTree = "<group>"; };
 		6F1F4DEC15A1B5F900F65ECF /* SegueLeftPanelDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegueLeftPanelDemoViewController.h; sourceTree = "<group>"; };
 		6F1F4DED15A1B5F900F65ECF /* SegueLeftPanelDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SegueLeftPanelDemoViewController.m; sourceTree = "<group>"; };
 		6F1F4DF015A1B61800F65ECF /* SegueFirstRightPanelDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SegueFirstRightPanelDemoViewController.h; sourceTree = "<group>"; };
@@ -1158,6 +1162,8 @@
 				6F53B63416FA321000E01781 /* DemoColors.m */,
 				6F9C463614C5C30B00824AB2 /* DemoErrors.h */,
 				6F9C463714C5C30B00824AB2 /* DemoErrors.m */,
+				6F1CE8C2177EDACB0060BC85 /* DemoFormatter.h */,
+				6F1CE8C3177EDACB0060BC85 /* DemoFormatter.m */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -1689,6 +1695,7 @@
 				6F53B63516FA321000E01781 /* DemoColors.m in Sources */,
 				6FB5004A1705A60900779DB3 /* ConnectionDemoViewController.m in Sources */,
 				6F1CE8B2177ED64F0060BC85 /* LabelBindingsDemoViewController.m in Sources */,
+				6F1CE8C4177EDACB0060BC85 /* DemoFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1760,6 +1767,7 @@
 				6F53B63616FA321000E01781 /* DemoColors.m in Sources */,
 				6FB5004B1705A60900779DB3 /* ConnectionDemoViewController.m in Sources */,
 				6F1CE8B3177ED64F0060BC85 /* LabelBindingsDemoViewController.m in Sources */,
+				6F1CE8C5177EDACB0060BC85 /* DemoFormatter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
