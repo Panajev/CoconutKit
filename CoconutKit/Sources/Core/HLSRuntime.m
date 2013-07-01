@@ -86,7 +86,7 @@ IMP HLSSwizzleSelector(Class clazz, SEL selector, IMP newImplementation)
     Method origMethodOnClass = NULL;
     
     // Find whether the method is actually implemented by the class (NOT by one of its superclasses). We do not
-    // use method_getImplementation here since we do not want to walk the parent class hierarchy
+    // use method_getImplementation here since we do not want to climb up the parent class hierarchy
     // TODO: A method should be available from CoconutKit, see url-connection branch
     unsigned int numberOfMethods = 0;
     Method *methods = class_copyMethodList(clazz, &numberOfMethods);
@@ -99,25 +99,34 @@ IMP HLSSwizzleSelector(Class clazz, SEL selector, IMP newImplementation)
     }
     free(methods);
     
+    // Method not implemented by the class: Add a method calling the super counterpart first (see explanation at
+    // the top of this file)
     if (! origMethodOnClass) {
+        // The method must actually be implemented somewhere along the hierarchy, we cannot swizzle a method
+        // which is not implemented
         Method origMethodOnParentClass = class_getInstanceMethod(clazz, selector);
         if (! origMethodOnParentClass) {
             return NULL;
         }
-        // No SEL argument
-        class_addMethod(clazz, selector, imp_implementationWithBlock(^(id self, va_list argp) {
+        
+        // Inject method (block implementations have no SEL argument)
+        if (! class_addMethod(clazz, selector, imp_implementationWithBlock(^(id self, va_list argp) {
             struct objc_super super;
             super.receiver = self;
             super.super_class = class_getSuperclass(clazz);
             return objc_msgSendSuper(&super, selector, argp);
-        }), method_getTypeEncoding(origMethodOnParentClass));
+        }), method_getTypeEncoding(origMethodOnParentClass))) {
+            return NULL;
+        }
         
+        // Retrieve the method we have injected
         origMethodOnClass = class_getInstanceMethod(clazz, selector);
         if (! origMethodOnClass) {
             return NULL;
         }
     }
     
+    // Swizzle the implementation
     IMP origImpOnClass = method_getImplementation(origMethodOnClass);
     if (! origImpOnClass) {
         return NULL;
