@@ -79,7 +79,6 @@
 		6F159A8E15A554250020AFAC /* WizardDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FADE87614BA04C9007EE121 /* WizardDemoViewController.xib */; };
 		6F159A8F15A554250020AFAC /* WizardIdentityPageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FADE87914BA04C9007EE121 /* WizardIdentityPageViewController.xib */; };
 		6F159A9115A554250020AFAC /* WebViewDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FDE688314BC8E9300F8CD3A /* WebViewDemoViewController.xib */; };
-		6F159A9215A554250020AFAC /* SkinningDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FDE68A614BD61F500F8CD3A /* SkinningDemoViewController.xib */; };
 		6F159A9315A554250020AFAC /* ParallaxScrollingDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FC5E8AD14F380A100C01ABC /* ParallaxScrollingDemoViewController.xib */; };
 		6F159A9415A554250020AFAC /* SlideshowDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F5A0BAD1509D17B00A20DFF /* SlideshowDemoViewController.xib */; };
 		6F159A9515A554250020AFAC /* CoconutKit-resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6F000108156BD1360055CED7 /* CoconutKit-resources.bundle */; };
@@ -159,7 +158,6 @@
 		6F159AE215A554250020AFAC /* HLSTextFieldTouchDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE69514BA04A6007EE121 /* HLSTextFieldTouchDetector.m */; };
 		6F159AE315A554250020AFAC /* HLSValue1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE69714BA04A6007EE121 /* HLSValue1TableViewCell.m */; };
 		6F159AE415A554250020AFAC /* HLSValue2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE69914BA04A6007EE121 /* HLSValue2TableViewCell.m */; };
-		6F159AE515A554250020AFAC /* UINavigationBar+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE69B14BA04A6007EE121 /* UINavigationBar+HLSExtensions.m */; };
 		6F159AE615A554250020AFAC /* UITextField+HLSValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE69D14BA04A6007EE121 /* UITextField+HLSValidation.m */; };
 		6F159AE715A554250020AFAC /* UIView+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE69F14BA04A6007EE121 /* UIView+HLSExtensions.m */; };
 		6F159AE815A554250020AFAC /* HLSContainerContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE6A314BA04A6007EE121 /* HLSContainerContent.m */; };
@@ -207,10 +205,8 @@
 		6F159B1715A554250020AFAC /* _Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE88314BA04C9007EE121 /* _Person.m */; };
 		6F159B1815A554250020AFAC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE88514BA04C9007EE121 /* Person.m */; };
 		6F159B1915A554250020AFAC /* UILabel+HLSDynamicLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE9F114BA3AB4007EE121 /* UILabel+HLSDynamicLocalization.m */; };
-		6F159B1B15A554250020AFAC /* UIToolbar+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B063914BC7BA60026F512 /* UIToolbar+HLSExtensions.m */; };
 		6F159B1C15A554250020AFAC /* UIWebView+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B064814BC7D500026F512 /* UIWebView+HLSExtensions.m */; };
 		6F159B1D15A554250020AFAC /* WebViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDE688214BC8E9300F8CD3A /* WebViewDemoViewController.m */; };
-		6F159B1E15A554250020AFAC /* SkinningDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDE68A514BD61F500F8CD3A /* SkinningDemoViewController.m */; };
 		6F159B1F15A554250020AFAC /* HLSLabelLocalizationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDE694814BEDBE300F8CD3A /* HLSLabelLocalizationInfo.m */; };
 		6F159B2015A554250020AFAC /* UIBarButtonItem+HLSActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F91452214CE7E6100AFA609 /* UIBarButtonItem+HLSActionSheet.m */; };
 		6F159B2115A554250020AFAC /* UIActionSheet+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7B848614CF1BD90091EE4B /* UIActionSheet+HLSExtensions.m */; };
@@ -281,7 +277,6 @@
 		6F255E581712E86C007BFC96 /* HLSFakeConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F255E561712E86C007BFC96 /* HLSFakeConnection.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		6F2D470315761B7400EF5E4F /* NSMutableArray+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D470015761B7400EF5E4F /* NSMutableArray+HLSExtensions.m */; };
 		6F2D470415761B7400EF5E4F /* NSSet+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F2D470215761B7400EF5E4F /* NSSet+HLSExtensions.m */; };
-		6F3B063A14BC7BA60026F512 /* UIToolbar+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B063914BC7BA60026F512 /* UIToolbar+HLSExtensions.m */; };
 		6F3B064914BC7D500026F512 /* UIWebView+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3B064814BC7D500026F512 /* UIWebView+HLSExtensions.m */; };
 		6F3E3E8815A22796007E78BD /* HLSApplicationPreloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F3E3E8715A22796007E78BD /* HLSApplicationPreloader.m */; };
 		6F41D23315E6A580009A2384 /* CALayer+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F41D23215E6A580009A2384 /* CALayer+HLSExtensions.m */; };
@@ -386,7 +381,6 @@
 		6FADE6E814BA04A7007EE121 /* HLSTextFieldTouchDetector.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE69514BA04A6007EE121 /* HLSTextFieldTouchDetector.m */; };
 		6FADE6E914BA04A7007EE121 /* HLSValue1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE69714BA04A6007EE121 /* HLSValue1TableViewCell.m */; };
 		6FADE6EA14BA04A7007EE121 /* HLSValue2TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE69914BA04A6007EE121 /* HLSValue2TableViewCell.m */; };
-		6FADE6EB14BA04A7007EE121 /* UINavigationBar+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE69B14BA04A6007EE121 /* UINavigationBar+HLSExtensions.m */; };
 		6FADE6EC14BA04A7007EE121 /* UITextField+HLSValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE69D14BA04A6007EE121 /* UITextField+HLSValidation.m */; };
 		6FADE6ED14BA04A7007EE121 /* UIView+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE69F14BA04A6007EE121 /* UIView+HLSExtensions.m */; };
 		6FADE6EF14BA04A7007EE121 /* HLSContainerContent.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FADE6A314BA04A6007EE121 /* HLSContainerContent.m */; };
@@ -501,8 +495,6 @@
 		6FDDEC221529781300CED462 /* UITextView+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDDEC211529781300CED462 /* UITextView+HLSExtensions.m */; };
 		6FDE688414BC8E9300F8CD3A /* WebViewDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDE688214BC8E9300F8CD3A /* WebViewDemoViewController.m */; };
 		6FDE688514BC8E9300F8CD3A /* WebViewDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FDE688314BC8E9300F8CD3A /* WebViewDemoViewController.xib */; };
-		6FDE68A714BD61F500F8CD3A /* SkinningDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDE68A514BD61F500F8CD3A /* SkinningDemoViewController.m */; };
-		6FDE68A814BD61F500F8CD3A /* SkinningDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6FDE68A614BD61F500F8CD3A /* SkinningDemoViewController.xib */; };
 		6FDE694914BEDBE300F8CD3A /* HLSLabelLocalizationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FDE694814BEDBE300F8CD3A /* HLSLabelLocalizationInfo.m */; };
 		6FE8EA9114CFE48E0081F249 /* UINavigationController+HLSActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FE8EA9014CFE48E0081F249 /* UINavigationController+HLSActionSheet.m */; };
 		6FEEF86514F297DC001585A6 /* UIScrollView+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FEEF86414F297DB001585A6 /* UIScrollView+HLSExtensions.m */; };
@@ -644,8 +636,6 @@
 		6F2D470015761B7400EF5E4F /* NSMutableArray+HLSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSMutableArray+HLSExtensions.m"; sourceTree = "<group>"; };
 		6F2D470115761B7400EF5E4F /* NSSet+HLSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSSet+HLSExtensions.h"; sourceTree = "<group>"; };
 		6F2D470215761B7400EF5E4F /* NSSet+HLSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSSet+HLSExtensions.m"; sourceTree = "<group>"; };
-		6F3B063814BC7BA60026F512 /* UIToolbar+HLSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIToolbar+HLSExtensions.h"; sourceTree = "<group>"; };
-		6F3B063914BC7BA60026F512 /* UIToolbar+HLSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIToolbar+HLSExtensions.m"; sourceTree = "<group>"; };
 		6F3B064714BC7D500026F512 /* UIWebView+HLSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+HLSExtensions.h"; sourceTree = "<group>"; };
 		6F3B064814BC7D500026F512 /* UIWebView+HLSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+HLSExtensions.m"; sourceTree = "<group>"; };
 		6F3E3E8615A22796007E78BD /* HLSApplicationPreloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSApplicationPreloader.h; sourceTree = "<group>"; };
@@ -818,8 +808,6 @@
 		6FADE69714BA04A6007EE121 /* HLSValue1TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLSValue1TableViewCell.m; sourceTree = "<group>"; };
 		6FADE69814BA04A6007EE121 /* HLSValue2TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSValue2TableViewCell.h; sourceTree = "<group>"; };
 		6FADE69914BA04A6007EE121 /* HLSValue2TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLSValue2TableViewCell.m; sourceTree = "<group>"; };
-		6FADE69A14BA04A6007EE121 /* UINavigationBar+HLSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationBar+HLSExtensions.h"; sourceTree = "<group>"; };
-		6FADE69B14BA04A6007EE121 /* UINavigationBar+HLSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationBar+HLSExtensions.m"; sourceTree = "<group>"; };
 		6FADE69C14BA04A6007EE121 /* UITextField+HLSValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+HLSValidation.h"; sourceTree = "<group>"; };
 		6FADE69D14BA04A6007EE121 /* UITextField+HLSValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+HLSValidation.m"; sourceTree = "<group>"; };
 		6FADE69E14BA04A6007EE121 /* UIView+HLSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLSExtensions.h"; sourceTree = "<group>"; };
@@ -988,9 +976,6 @@
 		6FDE688114BC8E9300F8CD3A /* WebViewDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewDemoViewController.h; sourceTree = "<group>"; };
 		6FDE688214BC8E9300F8CD3A /* WebViewDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewDemoViewController.m; sourceTree = "<group>"; };
 		6FDE688314BC8E9300F8CD3A /* WebViewDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebViewDemoViewController.xib; sourceTree = "<group>"; };
-		6FDE68A414BD61F500F8CD3A /* SkinningDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SkinningDemoViewController.h; sourceTree = "<group>"; };
-		6FDE68A514BD61F500F8CD3A /* SkinningDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SkinningDemoViewController.m; sourceTree = "<group>"; };
-		6FDE68A614BD61F500F8CD3A /* SkinningDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SkinningDemoViewController.xib; sourceTree = "<group>"; };
 		6FDE694714BEDBE300F8CD3A /* HLSLabelLocalizationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSLabelLocalizationInfo.h; sourceTree = "<group>"; };
 		6FDE694814BEDBE300F8CD3A /* HLSLabelLocalizationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLSLabelLocalizationInfo.m; sourceTree = "<group>"; };
 		6FE8EA8F14CFE48E0081F249 /* UINavigationController+HLSActionSheet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+HLSActionSheet.h"; sourceTree = "<group>"; };
@@ -1566,8 +1551,6 @@
 				6F91452214CE7E6100AFA609 /* UIBarButtonItem+HLSActionSheet.m */,
 				6FADE9F014BA3AB4007EE121 /* UILabel+HLSDynamicLocalization.h */,
 				6FADE9F114BA3AB4007EE121 /* UILabel+HLSDynamicLocalization.m */,
-				6FADE69A14BA04A6007EE121 /* UINavigationBar+HLSExtensions.h */,
-				6FADE69B14BA04A6007EE121 /* UINavigationBar+HLSExtensions.m */,
 				6FE8EA8F14CFE48E0081F249 /* UINavigationController+HLSActionSheet.h */,
 				6FE8EA9014CFE48E0081F249 /* UINavigationController+HLSActionSheet.m */,
 				6FEEF86314F297DB001585A6 /* UIScrollView+HLSExtensions.h */,
@@ -1578,8 +1561,6 @@
 				6FADE69D14BA04A6007EE121 /* UITextField+HLSValidation.m */,
 				6FDDEC201529781300CED462 /* UITextView+HLSExtensions.h */,
 				6FDDEC211529781300CED462 /* UITextView+HLSExtensions.m */,
-				6F3B063814BC7BA60026F512 /* UIToolbar+HLSExtensions.h */,
-				6F3B063914BC7BA60026F512 /* UIToolbar+HLSExtensions.m */,
 				6FADE69E14BA04A6007EE121 /* UIView+HLSExtensions.h */,
 				6FADE69F14BA04A6007EE121 /* UIView+HLSExtensions.m */,
 				6F66181916C14B7300303628 /* UIView+HLSRuntimeAttributes.h */,
@@ -1819,7 +1800,6 @@
 				6F5007F81585E90100391A6C /* ExpandingSearchBar */,
 				6F89149615790DCA009FCC78 /* Label */,
 				6FC5E8AA14F380A100C01ABC /* ParallaxScrolling */,
-				6FDE68A314BD61F400F8CD3A /* Skinning */,
 				6F5A0BAA1509D17B00A20DFF /* Slideshow */,
 				6FADE84A14BA04C8007EE121 /* TableViewCells */,
 				6FADE85814BA04C9007EE121 /* TextFields */,
@@ -2079,16 +2059,6 @@
 			path = WebView;
 			sourceTree = "<group>";
 		};
-		6FDE68A314BD61F400F8CD3A /* Skinning */ = {
-			isa = PBXGroup;
-			children = (
-				6FDE68A414BD61F500F8CD3A /* SkinningDemoViewController.h */,
-				6FDE68A514BD61F500F8CD3A /* SkinningDemoViewController.m */,
-				6FDE68A614BD61F500F8CD3A /* SkinningDemoViewController.xib */,
-			);
-			path = Skinning;
-			sourceTree = "<group>";
-		};
 		6FEF8547131F77180015B57C /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
@@ -2247,7 +2217,6 @@
 				6FADE8DA14BA04C9007EE121 /* WizardDemoViewController.xib in Resources */,
 				6FADE8DC14BA04C9007EE121 /* WizardIdentityPageViewController.xib in Resources */,
 				6FDE688514BC8E9300F8CD3A /* WebViewDemoViewController.xib in Resources */,
-				6FDE68A814BD61F500F8CD3A /* SkinningDemoViewController.xib in Resources */,
 				6FC5E8AF14F380A100C01ABC /* ParallaxScrollingDemoViewController.xib in Resources */,
 				6F5A0BAF1509D17B00A20DFF /* SlideshowDemoViewController.xib in Resources */,
 				6F000109156BD1360055CED7 /* CoconutKit-resources.bundle in Resources */,
@@ -2329,7 +2298,6 @@
 				6F159A8E15A554250020AFAC /* WizardDemoViewController.xib in Resources */,
 				6F159A8F15A554250020AFAC /* WizardIdentityPageViewController.xib in Resources */,
 				6F159A9115A554250020AFAC /* WebViewDemoViewController.xib in Resources */,
-				6F159A9215A554250020AFAC /* SkinningDemoViewController.xib in Resources */,
 				6F159A9315A554250020AFAC /* ParallaxScrollingDemoViewController.xib in Resources */,
 				6F159A9415A554250020AFAC /* SlideshowDemoViewController.xib in Resources */,
 				6F159A9515A554250020AFAC /* CoconutKit-resources.bundle in Resources */,
@@ -2463,7 +2431,6 @@
 				6FADE6E814BA04A7007EE121 /* HLSTextFieldTouchDetector.m in Sources */,
 				6FADE6E914BA04A7007EE121 /* HLSValue1TableViewCell.m in Sources */,
 				6FADE6EA14BA04A7007EE121 /* HLSValue2TableViewCell.m in Sources */,
-				6FADE6EB14BA04A7007EE121 /* UINavigationBar+HLSExtensions.m in Sources */,
 				6FADE6EC14BA04A7007EE121 /* UITextField+HLSValidation.m in Sources */,
 				6FADE6ED14BA04A7007EE121 /* UIView+HLSExtensions.m in Sources */,
 				6FADE6EF14BA04A7007EE121 /* HLSContainerContent.m in Sources */,
@@ -2511,10 +2478,8 @@
 				6FADE8DF14BA04C9007EE121 /* _Person.m in Sources */,
 				6FADE8E014BA04C9007EE121 /* Person.m in Sources */,
 				6FADE9F214BA3AB4007EE121 /* UILabel+HLSDynamicLocalization.m in Sources */,
-				6F3B063A14BC7BA60026F512 /* UIToolbar+HLSExtensions.m in Sources */,
 				6F3B064914BC7D500026F512 /* UIWebView+HLSExtensions.m in Sources */,
 				6FDE688414BC8E9300F8CD3A /* WebViewDemoViewController.m in Sources */,
-				6FDE68A714BD61F500F8CD3A /* SkinningDemoViewController.m in Sources */,
 				6FDE694914BEDBE300F8CD3A /* HLSLabelLocalizationInfo.m in Sources */,
 				6F91452414CE7E6100AFA609 /* UIBarButtonItem+HLSActionSheet.m in Sources */,
 				6F7B848714CF1BD90091EE4B /* UIActionSheet+HLSExtensions.m in Sources */,
@@ -2641,7 +2606,6 @@
 				6F159AE215A554250020AFAC /* HLSTextFieldTouchDetector.m in Sources */,
 				6F159AE315A554250020AFAC /* HLSValue1TableViewCell.m in Sources */,
 				6F159AE415A554250020AFAC /* HLSValue2TableViewCell.m in Sources */,
-				6F159AE515A554250020AFAC /* UINavigationBar+HLSExtensions.m in Sources */,
 				6F159AE615A554250020AFAC /* UITextField+HLSValidation.m in Sources */,
 				6F159AE715A554250020AFAC /* UIView+HLSExtensions.m in Sources */,
 				6F159AE815A554250020AFAC /* HLSContainerContent.m in Sources */,
@@ -2689,10 +2653,8 @@
 				6F159B1715A554250020AFAC /* _Person.m in Sources */,
 				6F159B1815A554250020AFAC /* Person.m in Sources */,
 				6F159B1915A554250020AFAC /* UILabel+HLSDynamicLocalization.m in Sources */,
-				6F159B1B15A554250020AFAC /* UIToolbar+HLSExtensions.m in Sources */,
 				6F159B1C15A554250020AFAC /* UIWebView+HLSExtensions.m in Sources */,
 				6F159B1D15A554250020AFAC /* WebViewDemoViewController.m in Sources */,
-				6F159B1E15A554250020AFAC /* SkinningDemoViewController.m in Sources */,
 				6F159B1F15A554250020AFAC /* HLSLabelLocalizationInfo.m in Sources */,
 				6F159B2015A554250020AFAC /* UIBarButtonItem+HLSActionSheet.m in Sources */,
 				6F159B2115A554250020AFAC /* UIActionSheet+HLSExtensions.m in Sources */,
