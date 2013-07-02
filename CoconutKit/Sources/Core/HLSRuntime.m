@@ -10,6 +10,8 @@
 
 #import <objc/message.h>
 
+static IMP HLSSwizzleSelectorCommon(Class clazz, SEL selector, IMP newImplementation);
+
 /**
  * About method swizzling in class hierarchies: 
  * --------------------------------------------
@@ -67,21 +69,15 @@
 
 IMP HLSSwizzleClassSelector(Class clazz, SEL selector, IMP newImplementation)
 {
-    // TODO: Same as in HLSSwizzleSelector
-    
-    // Get the original implementation we are replacing
-    Class metaClass = objc_getMetaClass(class_getName(clazz));
-    Method method = class_getClassMethod(metaClass, selector);
-    IMP origImp = method_getImplementation(method);
-    if (! origImp) {
-        return NULL;
-    }
-    
-    class_replaceMethod(metaClass, selector, newImplementation, method_getTypeEncoding(method));
-    return origImp;
+    return HLSSwizzleSelectorCommon(objc_getMetaClass(class_getName(clazz)), selector, newImplementation);
 }
 
 IMP HLSSwizzleSelector(Class clazz, SEL selector, IMP newImplementation)
+{
+    return HLSSwizzleSelectorCommon(clazz, selector, newImplementation);
+}
+
+static IMP HLSSwizzleSelectorCommon(Class clazz, SEL selector, IMP newImplementation)
 {
     Method origMethodOnClass = NULL;
     
@@ -104,7 +100,7 @@ IMP HLSSwizzleSelector(Class clazz, SEL selector, IMP newImplementation)
     if (! origMethodOnClass) {
         // The method must actually be implemented somewhere along the hierarchy, we cannot swizzle a method
         // which is not implemented
-        Method origMethodOnParentClass = class_getInstanceMethod(clazz, selector);
+        Method origMethodOnParentClass = class_isMetaClass(clazz) ? class_getClassMethod(clazz, selector) : class_getInstanceMethod(clazz, selector);
         if (! origMethodOnParentClass) {
             return NULL;
         }
@@ -118,22 +114,10 @@ IMP HLSSwizzleSelector(Class clazz, SEL selector, IMP newImplementation)
         }), method_getTypeEncoding(origMethodOnParentClass))) {
             return NULL;
         }
-        
-        // Retrieve the method we have injected
-        origMethodOnClass = class_getInstanceMethod(clazz, selector);
-        if (! origMethodOnClass) {
-            return NULL;
-        }
     }
     
     // Swizzle the implementation
-    IMP origImpOnClass = method_getImplementation(origMethodOnClass);
-    if (! origImpOnClass) {
-        return NULL;
-    }
-    
-    class_replaceMethod(clazz, selector, newImplementation, method_getTypeEncoding(origMethodOnClass));
-    return origImpOnClass;
+    return class_replaceMethod(clazz, selector, newImplementation, method_getTypeEncoding(origMethodOnClass));
 }
 
 BOOL HLSIsSubclassOfClass(Class subclass, Class superclass)
