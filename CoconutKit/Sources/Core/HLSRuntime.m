@@ -32,8 +32,8 @@ static IMP HLSSwizzleSelectorCommon(Class clazz, SEL selector, IMP newImplementa
  * NSObject level).
  *
  * Is everything also working as expected when -awakeFromNib is called on a UILabel instance? The answer is no. Well, 
- * of course the UILabel swizzled method implementation gets called, which in turns calls the original implementation we 
- * have replaced (the one at the NSObject level). But the swizzled -[UIView awakeFromNib] method never gets called. 
+ * of course the UILabel swizzled method implementation gets called, which in turns calls the original implementation
+ * we have replaced (the one at the NSObject level). But the swizzled -[UIView awakeFromNib] method never gets called.
  * The reason is obvious: Since UILabel did not actually implement -awakeFromNib before we swizzled it, its original
  * method implementation did not call the super implementation.
  *
@@ -65,6 +65,13 @@ static IMP HLSSwizzleSelectorCommon(Class clazz, SEL selector, IMP newImplementa
  * the method itself, and if we want to swizzle it, we must therefore add the method at runtime first. In order for the
  * parent implementation to be called first (so that the behavior stays consistent with the situation prior to swizzling),
  * the added method implementation must consist of a single call to the super method implementation.
+ *
+ * Remark:
+ * -------
+ * Method swizzling is usually made by having two method implementations being exchanged (see e.g. JRSwizzle). In such
+ * cases we must only ensure that the swizzled method exists, correct behavior is guaranteed since calling the original
+ * implementation is then made using standard Objective-C messaging. Swizzling by setting an IMP without associated
+ * selector, as done here, is therefore somewhat trickier, but is robust against swizzled method name clashes
  */
 
 IMP HLSSwizzleClassSelector(Class clazz, SEL selector, IMP newImplementation)
@@ -79,45 +86,26 @@ IMP HLSSwizzleSelector(Class clazz, SEL selector, IMP newImplementation)
 
 static IMP HLSSwizzleSelectorCommon(Class clazz, SEL selector, IMP newImplementation)
 {
-    Method origMethodOnClass = NULL;
-    
-    // Find whether the method is actually implemented by the class (NOT by one of its superclasses). We do not
-    // use method_getImplementation here since we do not want to climb up the parent class hierarchy
-    // TODO: A method should be available from CoconutKit, see url-connection branch
-    unsigned int numberOfMethods = 0;
-    Method *methods = class_copyMethodList(clazz, &numberOfMethods);
-    for (unsigned int i = 0; i < numberOfMethods; ++i) {
-        Method method = methods[i];
-        if (method_getName(method) == selector) {
-            origMethodOnClass = method;
-            break;
-        }
-    }
-    free(methods);
-    
-    // Method not implemented by the class: Add a method calling the super counterpart first (see explanation at
-    // the top of this file)
-    if (! origMethodOnClass) {
-        // The method must actually be implemented somewhere along the hierarchy, we cannot swizzle a method
-        // which is not implemented
-        Method origMethodOnParentClass = class_isMetaClass(clazz) ? class_getClassMethod(clazz, selector) : class_getInstanceMethod(clazz, selector);
-        if (! origMethodOnParentClass) {
-            return NULL;
-        }
-        
-        // Inject method (block implementations have no SEL argument)
-        if (! class_addMethod(clazz, selector, imp_implementationWithBlock(^(id self, va_list argp) {
-            struct objc_super super;
-            super.receiver = self;
-            super.super_class = class_getSuperclass(clazz);
-            return objc_msgSendSuper(&super, selector, argp);
-        }), method_getTypeEncoding(origMethodOnParentClass))) {
-            return NULL;
-        }
+    // Calling class_getInstanceMethod on a metaclass is the same as calling class_getClassMethod on the class itself. There
+    // is therefore no need to test whether the class is a metaclass or not! Lookup is performed in parent classes as well
+    Method method = class_getInstanceMethod(clazz, selector);
+    if (! method) {
+        // Cannot swizzle methods which are not implemented by the class or one of its parents
+        return NULL;
     }
     
-    // Swizzle the implementation
-    return class_replaceMethod(clazz, selector, newImplementation, method_getTypeEncoding(origMethodOnClass));
+    // The following only adds a method implementation if the class does not implement it itself (block implementations
+    // sigatures must not have a SEL argument). The added method only calls the super counterpart, see explanation above
+    const char *types = method_getTypeEncoding(method);
+    class_addMethod(clazz, selector, imp_implementationWithBlock(^(id self, va_list argp) {
+        struct objc_super super;
+        super.receiver = self;
+        super.super_class = class_getSuperclass(clazz);
+        return objc_msgSendSuper(&super, selector, argp);
+    }), types);
+    
+    // Swizzling
+    return class_replaceMethod(clazz, selector, newImplementation, types);
 }
 
 BOOL HLSIsSubclassOfClass(Class subclass, Class superclass)
