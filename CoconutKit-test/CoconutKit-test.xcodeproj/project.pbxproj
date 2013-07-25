@@ -291,7 +291,6 @@
 		6FA06524177A21F50097582B /* UIView+HLSViewBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+HLSViewBinding.m"; sourceTree = "<group>"; };
 		6FA06525177A21F50097582B /* UIViewController+HLSViewBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HLSViewBinding.h"; sourceTree = "<group>"; };
 		6FA06526177A21F50097582B /* UIViewController+HLSViewBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+HLSViewBinding.m"; sourceTree = "<group>"; };
-		6FA06530177AA6E40097582B /* UIView+HLSViewBindingFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLSViewBindingFriend.h"; sourceTree = "<group>"; };
 		6FA5BDA015E2923900E5182E /* HLSLayerAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSLayerAnimation.h; sourceTree = "<group>"; };
 		6FA5BDA115E2923900E5182E /* HLSLayerAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLSLayerAnimation.m; sourceTree = "<group>"; };
 		6FA74D41140500CC0043693E /* UIView+HLSExtensionsTestCase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLSExtensionsTestCase.h"; sourceTree = "<group>"; };
@@ -692,7 +691,6 @@
 				6FA06522177A21F50097582B /* UILabel+HLSViewBinding.m */,
 				6FA06523177A21F50097582B /* UIView+HLSViewBinding.h */,
 				6FA06524177A21F50097582B /* UIView+HLSViewBinding.m */,
-				6FA06530177AA6E40097582B /* UIView+HLSViewBindingFriend.h */,
 				6FA06525177A21F50097582B /* UIViewController+HLSViewBinding.h */,
 				6FA06526177A21F50097582B /* UIViewController+HLSViewBinding.m */,
 			);
