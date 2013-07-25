@@ -317,6 +317,14 @@
 		6F78D75C17A179B500C35456 /* LabelBindingsDemo3InsetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F78D75917A179B400C35456 /* LabelBindingsDemo3InsetViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		6F78D75D17A179B500C35456 /* LabelBindingsDemo3InsetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D75A17A179B500C35456 /* LabelBindingsDemo3InsetViewController.xib */; };
 		6F78D75E17A179B500C35456 /* LabelBindingsDemo3InsetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D75A17A179B500C35456 /* LabelBindingsDemo3InsetViewController.xib */; };
+		6F78D76C17A1814E00C35456 /* LabelBindingsDemo4InsetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F78D76717A1814A00C35456 /* LabelBindingsDemo4InsetViewController.m */; };
+		6F78D76D17A1814E00C35456 /* LabelBindingsDemo4InsetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F78D76717A1814A00C35456 /* LabelBindingsDemo4InsetViewController.m */; };
+		6F78D76E17A1814E00C35456 /* LabelBindingsDemo4InsetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D76817A1814B00C35456 /* LabelBindingsDemo4InsetViewController.xib */; };
+		6F78D76F17A1814E00C35456 /* LabelBindingsDemo4InsetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D76817A1814B00C35456 /* LabelBindingsDemo4InsetViewController.xib */; };
+		6F78D77017A1814E00C35456 /* LabelBindingsDemo4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F78D76A17A1814C00C35456 /* LabelBindingsDemo4ViewController.m */; };
+		6F78D77117A1814E00C35456 /* LabelBindingsDemo4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F78D76A17A1814C00C35456 /* LabelBindingsDemo4ViewController.m */; };
+		6F78D77217A1814E00C35456 /* LabelBindingsDemo4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D76B17A1814D00C35456 /* LabelBindingsDemo4ViewController.xib */; };
+		6F78D77317A1814E00C35456 /* LabelBindingsDemo4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D76B17A1814D00C35456 /* LabelBindingsDemo4ViewController.xib */; };
 		6F7A871516522C210030B091 /* UIPopoverController+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7A871416522C210030B091 /* UIPopoverController+HLSExtensions.m */; };
 		6F7A871616522C210030B091 /* UIPopoverController+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7A871416522C210030B091 /* UIPopoverController+HLSExtensions.m */; };
 		6F7B848714CF1BD90091EE4B /* UIActionSheet+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7B848614CF1BD90091EE4B /* UIActionSheet+HLSExtensions.m */; };
@@ -697,6 +705,12 @@
 		6F78D75817A179B400C35456 /* LabelBindingsDemo3InsetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelBindingsDemo3InsetViewController.h; sourceTree = "<group>"; };
 		6F78D75917A179B400C35456 /* LabelBindingsDemo3InsetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelBindingsDemo3InsetViewController.m; sourceTree = "<group>"; };
 		6F78D75A17A179B500C35456 /* LabelBindingsDemo3InsetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelBindingsDemo3InsetViewController.xib; sourceTree = "<group>"; };
+		6F78D76617A1814900C35456 /* LabelBindingsDemo4InsetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelBindingsDemo4InsetViewController.h; sourceTree = "<group>"; };
+		6F78D76717A1814A00C35456 /* LabelBindingsDemo4InsetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelBindingsDemo4InsetViewController.m; sourceTree = "<group>"; };
+		6F78D76817A1814B00C35456 /* LabelBindingsDemo4InsetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelBindingsDemo4InsetViewController.xib; sourceTree = "<group>"; };
+		6F78D76917A1814C00C35456 /* LabelBindingsDemo4ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelBindingsDemo4ViewController.h; sourceTree = "<group>"; };
+		6F78D76A17A1814C00C35456 /* LabelBindingsDemo4ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelBindingsDemo4ViewController.m; sourceTree = "<group>"; };
+		6F78D76B17A1814D00C35456 /* LabelBindingsDemo4ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelBindingsDemo4ViewController.xib; sourceTree = "<group>"; };
 		6F7A871316522C210030B091 /* UIPopoverController+HLSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPopoverController+HLSExtensions.h"; sourceTree = "<group>"; };
 		6F7A871416522C210030B091 /* UIPopoverController+HLSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPopoverController+HLSExtensions.m"; sourceTree = "<group>"; };
 		6F7B848514CF1BD90091EE4B /* UIActionSheet+HLSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+HLSExtensions.h"; sourceTree = "<group>"; };
@@ -1249,6 +1263,12 @@
 				6F78D74A17A170C700C35456 /* LabelBindingsDemo3ViewController.h */,
 				6F78D74B17A170C700C35456 /* LabelBindingsDemo3ViewController.m */,
 				6F78D74C17A170C700C35456 /* LabelBindingsDemo3ViewController.xib */,
+				6F78D76617A1814900C35456 /* LabelBindingsDemo4InsetViewController.h */,
+				6F78D76717A1814A00C35456 /* LabelBindingsDemo4InsetViewController.m */,
+				6F78D76817A1814B00C35456 /* LabelBindingsDemo4InsetViewController.xib */,
+				6F78D76917A1814C00C35456 /* LabelBindingsDemo4ViewController.h */,
+				6F78D76A17A1814C00C35456 /* LabelBindingsDemo4ViewController.m */,
+				6F78D76B17A1814D00C35456 /* LabelBindingsDemo4ViewController.xib */,
 			);
 			path = Bindings;
 			sourceTree = "<group>";
@@ -2313,6 +2333,8 @@
 				6F10E3B617A0F33B00BFEF42 /* LabelBindingsDemo2ViewController.xib in Resources */,
 				6F78D74F17A170C700C35456 /* LabelBindingsDemo3ViewController.xib in Resources */,
 				6F78D75D17A179B500C35456 /* LabelBindingsDemo3InsetViewController.xib in Resources */,
+				6F78D76E17A1814E00C35456 /* LabelBindingsDemo4InsetViewController.xib in Resources */,
+				6F78D77217A1814E00C35456 /* LabelBindingsDemo4ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2397,6 +2419,8 @@
 				6F10E3B717A0F33B00BFEF42 /* LabelBindingsDemo2ViewController.xib in Resources */,
 				6F78D75017A170C700C35456 /* LabelBindingsDemo3ViewController.xib in Resources */,
 				6F78D75E17A179B500C35456 /* LabelBindingsDemo3InsetViewController.xib in Resources */,
+				6F78D76F17A1814E00C35456 /* LabelBindingsDemo4InsetViewController.xib in Resources */,
+				6F78D77317A1814E00C35456 /* LabelBindingsDemo4ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2609,6 +2633,8 @@
 				6F10E3B417A0F33B00BFEF42 /* LabelBindingsDemo2ViewController.m in Sources */,
 				6F78D74D17A170C700C35456 /* LabelBindingsDemo3ViewController.m in Sources */,
 				6F78D75B17A179B500C35456 /* LabelBindingsDemo3InsetViewController.m in Sources */,
+				6F78D76C17A1814E00C35456 /* LabelBindingsDemo4InsetViewController.m in Sources */,
+				6F78D77017A1814E00C35456 /* LabelBindingsDemo4ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2788,6 +2814,8 @@
 				6F10E3B517A0F33B00BFEF42 /* LabelBindingsDemo2ViewController.m in Sources */,
 				6F78D74E17A170C700C35456 /* LabelBindingsDemo3ViewController.m in Sources */,
 				6F78D75C17A179B500C35456 /* LabelBindingsDemo3InsetViewController.m in Sources */,
+				6F78D76D17A1814E00C35456 /* LabelBindingsDemo4InsetViewController.m in Sources */,
+				6F78D77117A1814E00C35456 /* LabelBindingsDemo4ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
