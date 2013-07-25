@@ -10,6 +10,7 @@
 		6F0C7D03163A7B7E00C6C381 /* HLSAutorotationCompatibility.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0C7D02163A7B7E00C6C381 /* HLSAutorotationCompatibility.h */; };
 		6F0F4DDB159CB75400277267 /* HLSPlaceholderInsetSegue.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0F4DD9159CB75400277267 /* HLSPlaceholderInsetSegue.h */; };
 		6F0F4DDC159CB75400277267 /* HLSPlaceholderInsetSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F0F4DDA159CB75400277267 /* HLSPlaceholderInsetSegue.m */; };
+		6F10E3BF17A1241700BFEF42 /* UIViewController+HLViewBindingFriend.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F10E3BD17A1241700BFEF42 /* UIViewController+HLViewBindingFriend.h */; };
 		6F22C74016A858530081A9A7 /* UIFont+HLSExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F22C73E16A858530081A9A7 /* UIFont+HLSExtensions.h */; };
 		6F22C74116A858530081A9A7 /* UIFont+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F22C73F16A858530081A9A7 /* UIFont+HLSExtensions.m */; };
 		6F22C74D16A93D8C0081A9A7 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F22C74C16A93D8C0081A9A7 /* CoreText.framework */; };
@@ -260,6 +261,7 @@
 		6F0C7D02163A7B7E00C6C381 /* HLSAutorotationCompatibility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSAutorotationCompatibility.h; sourceTree = "<group>"; };
 		6F0F4DD9159CB75400277267 /* HLSPlaceholderInsetSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSPlaceholderInsetSegue.h; sourceTree = "<group>"; };
 		6F0F4DDA159CB75400277267 /* HLSPlaceholderInsetSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLSPlaceholderInsetSegue.m; sourceTree = "<group>"; };
+		6F10E3BD17A1241700BFEF42 /* UIViewController+HLViewBindingFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HLViewBindingFriend.h"; sourceTree = "<group>"; };
 		6F22C73E16A858530081A9A7 /* UIFont+HLSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+HLSExtensions.h"; sourceTree = "<group>"; };
 		6F22C73F16A858530081A9A7 /* UIFont+HLSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+HLSExtensions.m"; sourceTree = "<group>"; };
 		6F22C74C16A93D8C0081A9A7 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
@@ -585,6 +587,7 @@
 				6FA064EE17799D7C0097582B /* UIView+HLSViewBinding.m */,
 				6FA064EF17799D7C0097582B /* UIViewController+HLSViewBinding.h */,
 				6FA064F017799D7C0097582B /* UIViewController+HLSViewBinding.m */,
+				6F10E3BD17A1241700BFEF42 /* UIViewController+HLViewBindingFriend.h */,
 			);
 			path = Bindings;
 			sourceTree = "<group>";
@@ -1000,6 +1003,7 @@
 				6FA064F317799D7C0097582B /* UILabel+HLSViewBinding.h in Headers */,
 				6FA064F717799D7C0097582B /* UIView+HLSViewBinding.h in Headers */,
 				6FA064F917799D7C0097582B /* UIViewController+HLSViewBinding.h in Headers */,
+				6F10E3BF17A1241700BFEF42 /* UIViewController+HLViewBindingFriend.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

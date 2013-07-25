@@ -614,6 +614,7 @@
 		6F10E3B117A0F33800BFEF42 /* LabelBindingsDemo2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelBindingsDemo2ViewController.h; sourceTree = "<group>"; };
 		6F10E3B217A0F33900BFEF42 /* LabelBindingsDemo2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelBindingsDemo2ViewController.m; sourceTree = "<group>"; };
 		6F10E3B317A0F33900BFEF42 /* LabelBindingsDemo2ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelBindingsDemo2ViewController.xib; sourceTree = "<group>"; };
+		6F10E3C117A1242000BFEF42 /* UIViewController+HLSViewBindingFriend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+HLSViewBindingFriend.h"; sourceTree = "<group>"; };
 		6F159B4715A554250020AFAC /* CoconutKit-dev-ios4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoconutKit-dev-ios4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F1CE8B7177ED6DA0060BC85 /* LabelBindingsDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelBindingsDemoViewController.h; sourceTree = "<group>"; };
 		6F1CE8B8177ED6DA0060BC85 /* LabelBindingsDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelBindingsDemoViewController.m; sourceTree = "<group>"; };
@@ -1349,6 +1350,7 @@
 				6FA0650317799D910097582B /* UIView+HLSViewBinding.m */,
 				6FA0650417799D910097582B /* UIViewController+HLSViewBinding.h */,
 				6FA0650517799D910097582B /* UIViewController+HLSViewBinding.m */,
+				6F10E3C117A1242000BFEF42 /* UIViewController+HLSViewBindingFriend.h */,
 			);
 			path = Bindings;
 			sourceTree = "<group>";
