@@ -309,6 +309,14 @@
 		6F718CA616CF825B001498D6 /* ViewEffectsDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F718CA316CF825B001498D6 /* ViewEffectsDemoViewController.m */; };
 		6F718CAA16CF8315001498D6 /* ViewEffectsDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F718CA916CF8315001498D6 /* ViewEffectsDemoViewController.xib */; };
 		6F718CAB16CF8315001498D6 /* ViewEffectsDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F718CA916CF8315001498D6 /* ViewEffectsDemoViewController.xib */; };
+		6F78D74D17A170C700C35456 /* LabelBindingsDemo3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F78D74B17A170C700C35456 /* LabelBindingsDemo3ViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6F78D74E17A170C700C35456 /* LabelBindingsDemo3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F78D74B17A170C700C35456 /* LabelBindingsDemo3ViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6F78D74F17A170C700C35456 /* LabelBindingsDemo3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D74C17A170C700C35456 /* LabelBindingsDemo3ViewController.xib */; };
+		6F78D75017A170C700C35456 /* LabelBindingsDemo3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D74C17A170C700C35456 /* LabelBindingsDemo3ViewController.xib */; };
+		6F78D75B17A179B500C35456 /* LabelBindingsDemo3InsetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F78D75917A179B400C35456 /* LabelBindingsDemo3InsetViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6F78D75C17A179B500C35456 /* LabelBindingsDemo3InsetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F78D75917A179B400C35456 /* LabelBindingsDemo3InsetViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6F78D75D17A179B500C35456 /* LabelBindingsDemo3InsetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D75A17A179B500C35456 /* LabelBindingsDemo3InsetViewController.xib */; };
+		6F78D75E17A179B500C35456 /* LabelBindingsDemo3InsetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D75A17A179B500C35456 /* LabelBindingsDemo3InsetViewController.xib */; };
 		6F7A871516522C210030B091 /* UIPopoverController+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7A871416522C210030B091 /* UIPopoverController+HLSExtensions.m */; };
 		6F7A871616522C210030B091 /* UIPopoverController+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7A871416522C210030B091 /* UIPopoverController+HLSExtensions.m */; };
 		6F7B848714CF1BD90091EE4B /* UIActionSheet+HLSExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F7B848614CF1BD90091EE4B /* UIActionSheet+HLSExtensions.m */; };
@@ -683,6 +691,12 @@
 		6F718CA216CF825B001498D6 /* ViewEffectsDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewEffectsDemoViewController.h; sourceTree = "<group>"; };
 		6F718CA316CF825B001498D6 /* ViewEffectsDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewEffectsDemoViewController.m; sourceTree = "<group>"; };
 		6F718CA916CF8315001498D6 /* ViewEffectsDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewEffectsDemoViewController.xib; sourceTree = "<group>"; };
+		6F78D74A17A170C700C35456 /* LabelBindingsDemo3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelBindingsDemo3ViewController.h; sourceTree = "<group>"; };
+		6F78D74B17A170C700C35456 /* LabelBindingsDemo3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelBindingsDemo3ViewController.m; sourceTree = "<group>"; };
+		6F78D74C17A170C700C35456 /* LabelBindingsDemo3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelBindingsDemo3ViewController.xib; sourceTree = "<group>"; };
+		6F78D75817A179B400C35456 /* LabelBindingsDemo3InsetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelBindingsDemo3InsetViewController.h; sourceTree = "<group>"; };
+		6F78D75917A179B400C35456 /* LabelBindingsDemo3InsetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelBindingsDemo3InsetViewController.m; sourceTree = "<group>"; };
+		6F78D75A17A179B500C35456 /* LabelBindingsDemo3InsetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelBindingsDemo3InsetViewController.xib; sourceTree = "<group>"; };
 		6F7A871316522C210030B091 /* UIPopoverController+HLSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPopoverController+HLSExtensions.h"; sourceTree = "<group>"; };
 		6F7A871416522C210030B091 /* UIPopoverController+HLSExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPopoverController+HLSExtensions.m"; sourceTree = "<group>"; };
 		6F7B848514CF1BD90091EE4B /* UIActionSheet+HLSExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+HLSExtensions.h"; sourceTree = "<group>"; };
@@ -1229,6 +1243,12 @@
 				6F10E3B117A0F33800BFEF42 /* LabelBindingsDemo2ViewController.h */,
 				6F10E3B217A0F33900BFEF42 /* LabelBindingsDemo2ViewController.m */,
 				6F10E3B317A0F33900BFEF42 /* LabelBindingsDemo2ViewController.xib */,
+				6F78D75817A179B400C35456 /* LabelBindingsDemo3InsetViewController.h */,
+				6F78D75917A179B400C35456 /* LabelBindingsDemo3InsetViewController.m */,
+				6F78D75A17A179B500C35456 /* LabelBindingsDemo3InsetViewController.xib */,
+				6F78D74A17A170C700C35456 /* LabelBindingsDemo3ViewController.h */,
+				6F78D74B17A170C700C35456 /* LabelBindingsDemo3ViewController.m */,
+				6F78D74C17A170C700C35456 /* LabelBindingsDemo3ViewController.xib */,
 			);
 			path = Bindings;
 			sourceTree = "<group>";
@@ -2291,6 +2311,8 @@
 				6F1CE8BC177ED6DA0060BC85 /* LabelBindingsDemoViewController.xib in Resources */,
 				6F10E39F17A0E58200BFEF42 /* LabelBindingsDemo1ViewController.xib in Resources */,
 				6F10E3B617A0F33B00BFEF42 /* LabelBindingsDemo2ViewController.xib in Resources */,
+				6F78D74F17A170C700C35456 /* LabelBindingsDemo3ViewController.xib in Resources */,
+				6F78D75D17A179B500C35456 /* LabelBindingsDemo3InsetViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2373,6 +2395,8 @@
 				6F1CE8BD177ED6DA0060BC85 /* LabelBindingsDemoViewController.xib in Resources */,
 				6F10E3A017A0E58200BFEF42 /* LabelBindingsDemo1ViewController.xib in Resources */,
 				6F10E3B717A0F33B00BFEF42 /* LabelBindingsDemo2ViewController.xib in Resources */,
+				6F78D75017A170C700C35456 /* LabelBindingsDemo3ViewController.xib in Resources */,
+				6F78D75E17A179B500C35456 /* LabelBindingsDemo3InsetViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2583,6 +2607,8 @@
 				6FAE6ECB1795C1FB005B468D /* Employee.m in Sources */,
 				6F10E39D17A0E58200BFEF42 /* LabelBindingsDemo1ViewController.m in Sources */,
 				6F10E3B417A0F33B00BFEF42 /* LabelBindingsDemo2ViewController.m in Sources */,
+				6F78D74D17A170C700C35456 /* LabelBindingsDemo3ViewController.m in Sources */,
+				6F78D75B17A179B500C35456 /* LabelBindingsDemo3InsetViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2760,6 +2786,8 @@
 				6FAE6ECC1795C1FB005B468D /* Employee.m in Sources */,
 				6F10E39E17A0E58200BFEF42 /* LabelBindingsDemo1ViewController.m in Sources */,
 				6F10E3B517A0F33B00BFEF42 /* LabelBindingsDemo2ViewController.m in Sources */,
+				6F78D74E17A170C700C35456 /* LabelBindingsDemo3ViewController.m in Sources */,
+				6F78D75C17A179B500C35456 /* LabelBindingsDemo3InsetViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

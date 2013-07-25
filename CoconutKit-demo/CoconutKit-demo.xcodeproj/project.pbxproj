@@ -27,7 +27,7 @@
 		6F10E3A517A0E5A800BFEF42 /* LabelBindingsDemo1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F10E3A217A0E5A800BFEF42 /* LabelBindingsDemo1ViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		6F10E3A617A0E5A800BFEF42 /* LabelBindingsDemo1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F10E3A317A0E5A800BFEF42 /* LabelBindingsDemo1ViewController.xib */; };
 		6F10E3A717A0E5A800BFEF42 /* LabelBindingsDemo1ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F10E3A317A0E5A800BFEF42 /* LabelBindingsDemo1ViewController.xib */; };
-		6F10E3AD17A0F32D00BFEF42 /* LabelBindingsDemo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F10E3AB17A0F32C00BFEF42 /* LabelBindingsDemo2ViewController.m */; };
+		6F10E3AD17A0F32D00BFEF42 /* LabelBindingsDemo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F10E3AB17A0F32C00BFEF42 /* LabelBindingsDemo2ViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		6F10E3AE17A0F32D00BFEF42 /* LabelBindingsDemo2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F10E3AB17A0F32C00BFEF42 /* LabelBindingsDemo2ViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		6F10E3AF17A0F32D00BFEF42 /* LabelBindingsDemo2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F10E3AC17A0F32D00BFEF42 /* LabelBindingsDemo2ViewController.xib */; };
 		6F10E3B017A0F32D00BFEF42 /* LabelBindingsDemo2ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F10E3AC17A0F32D00BFEF42 /* LabelBindingsDemo2ViewController.xib */; };
@@ -186,6 +186,14 @@
 		6F718CB116CF8714001498D6 /* ViewEffectsDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F718CAE16CF8714001498D6 /* ViewEffectsDemoViewController.m */; };
 		6F718CB216CF8714001498D6 /* ViewEffectsDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F718CAF16CF8714001498D6 /* ViewEffectsDemoViewController.xib */; };
 		6F718CB316CF8714001498D6 /* ViewEffectsDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F718CAF16CF8714001498D6 /* ViewEffectsDemoViewController.xib */; };
+		6F78D75417A1716A00C35456 /* LabelBindingsDemo3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F78D75217A1716A00C35456 /* LabelBindingsDemo3ViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6F78D75517A1716A00C35456 /* LabelBindingsDemo3ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F78D75217A1716A00C35456 /* LabelBindingsDemo3ViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6F78D75617A1716A00C35456 /* LabelBindingsDemo3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D75317A1716A00C35456 /* LabelBindingsDemo3ViewController.xib */; };
+		6F78D75717A1716A00C35456 /* LabelBindingsDemo3ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D75317A1716A00C35456 /* LabelBindingsDemo3ViewController.xib */; };
+		6F78D76217A179DB00C35456 /* LabelBindingsDemo3InsetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F78D76017A179DA00C35456 /* LabelBindingsDemo3InsetViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6F78D76317A179DB00C35456 /* LabelBindingsDemo3InsetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F78D76017A179DA00C35456 /* LabelBindingsDemo3InsetViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6F78D76417A179DB00C35456 /* LabelBindingsDemo3InsetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D76117A179DA00C35456 /* LabelBindingsDemo3InsetViewController.xib */; };
+		6F78D76517A179DB00C35456 /* LabelBindingsDemo3InsetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D76117A179DA00C35456 /* LabelBindingsDemo3InsetViewController.xib */; };
 		6F8914A015790DDE009FCC78 /* LabelDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F89149E15790DDE009FCC78 /* LabelDemoViewController.m */; };
 		6F8914A115790DDE009FCC78 /* LabelDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F89149F15790DDE009FCC78 /* LabelDemoViewController.xib */; };
 		6F9C464C14C5C30C00824AB2 /* CoconutKit_demoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C459514C5C30B00824AB2 /* CoconutKit_demoAppDelegate.m */; };
@@ -408,6 +416,12 @@
 		6F718CAD16CF8714001498D6 /* ViewEffectsDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewEffectsDemoViewController.h; sourceTree = "<group>"; };
 		6F718CAE16CF8714001498D6 /* ViewEffectsDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewEffectsDemoViewController.m; sourceTree = "<group>"; };
 		6F718CAF16CF8714001498D6 /* ViewEffectsDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewEffectsDemoViewController.xib; sourceTree = "<group>"; };
+		6F78D75117A1716A00C35456 /* LabelBindingsDemo3ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelBindingsDemo3ViewController.h; sourceTree = "<group>"; };
+		6F78D75217A1716A00C35456 /* LabelBindingsDemo3ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelBindingsDemo3ViewController.m; sourceTree = "<group>"; };
+		6F78D75317A1716A00C35456 /* LabelBindingsDemo3ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelBindingsDemo3ViewController.xib; sourceTree = "<group>"; };
+		6F78D75F17A179DA00C35456 /* LabelBindingsDemo3InsetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelBindingsDemo3InsetViewController.h; sourceTree = "<group>"; };
+		6F78D76017A179DA00C35456 /* LabelBindingsDemo3InsetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelBindingsDemo3InsetViewController.m; sourceTree = "<group>"; };
+		6F78D76117A179DA00C35456 /* LabelBindingsDemo3InsetViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelBindingsDemo3InsetViewController.xib; sourceTree = "<group>"; };
 		6F89149D15790DDE009FCC78 /* LabelDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelDemoViewController.h; sourceTree = "<group>"; };
 		6F89149E15790DDE009FCC78 /* LabelDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelDemoViewController.m; sourceTree = "<group>"; };
 		6F89149F15790DDE009FCC78 /* LabelDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelDemoViewController.xib; sourceTree = "<group>"; };
@@ -726,6 +740,12 @@
 				6F10E3AA17A0F32C00BFEF42 /* LabelBindingsDemo2ViewController.h */,
 				6F10E3AB17A0F32C00BFEF42 /* LabelBindingsDemo2ViewController.m */,
 				6F10E3AC17A0F32D00BFEF42 /* LabelBindingsDemo2ViewController.xib */,
+				6F78D75F17A179DA00C35456 /* LabelBindingsDemo3InsetViewController.h */,
+				6F78D76017A179DA00C35456 /* LabelBindingsDemo3InsetViewController.m */,
+				6F78D76117A179DA00C35456 /* LabelBindingsDemo3InsetViewController.xib */,
+				6F78D75117A1716A00C35456 /* LabelBindingsDemo3ViewController.h */,
+				6F78D75217A1716A00C35456 /* LabelBindingsDemo3ViewController.m */,
+				6F78D75317A1716A00C35456 /* LabelBindingsDemo3ViewController.xib */,
 			);
 			path = Bindings;
 			sourceTree = "<group>";
@@ -1521,6 +1541,8 @@
 				6F1CE8B4177ED64F0060BC85 /* LabelBindingsDemoViewController.xib in Resources */,
 				6F10E3A617A0E5A800BFEF42 /* LabelBindingsDemo1ViewController.xib in Resources */,
 				6F10E3AF17A0F32D00BFEF42 /* LabelBindingsDemo2ViewController.xib in Resources */,
+				6F78D75617A1716A00C35456 /* LabelBindingsDemo3ViewController.xib in Resources */,
+				6F78D76417A179DB00C35456 /* LabelBindingsDemo3InsetViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1600,6 +1622,8 @@
 				6F1CE8B5177ED64F0060BC85 /* LabelBindingsDemoViewController.xib in Resources */,
 				6F10E3A717A0E5A800BFEF42 /* LabelBindingsDemo1ViewController.xib in Resources */,
 				6F10E3B017A0F32D00BFEF42 /* LabelBindingsDemo2ViewController.xib in Resources */,
+				6F78D75717A1716A00C35456 /* LabelBindingsDemo3ViewController.xib in Resources */,
+				6F78D76517A179DB00C35456 /* LabelBindingsDemo3InsetViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1708,6 +1732,8 @@
 				6FAE6EC71795C1E8005B468D /* Employee.m in Sources */,
 				6F10E3A417A0E5A800BFEF42 /* LabelBindingsDemo1ViewController.m in Sources */,
 				6F10E3AD17A0F32D00BFEF42 /* LabelBindingsDemo2ViewController.m in Sources */,
+				6F78D75417A1716A00C35456 /* LabelBindingsDemo3ViewController.m in Sources */,
+				6F78D76217A179DB00C35456 /* LabelBindingsDemo3InsetViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1782,6 +1808,8 @@
 				6FAE6EC81795C1E8005B468D /* Employee.m in Sources */,
 				6F10E3A517A0E5A800BFEF42 /* LabelBindingsDemo1ViewController.m in Sources */,
 				6F10E3AE17A0F32D00BFEF42 /* LabelBindingsDemo2ViewController.m in Sources */,
+				6F78D75517A1716A00C35456 /* LabelBindingsDemo3ViewController.m in Sources */,
+				6F78D76317A179DB00C35456 /* LabelBindingsDemo3InsetViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
