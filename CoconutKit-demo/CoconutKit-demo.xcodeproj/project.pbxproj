@@ -204,6 +204,22 @@
 		6F78D78117A1815D00C35456 /* LabelBindingsDemo4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D77917A1815D00C35456 /* LabelBindingsDemo4ViewController.xib */; };
 		6F8914A015790DDE009FCC78 /* LabelDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F89149E15790DDE009FCC78 /* LabelDemoViewController.m */; };
 		6F8914A115790DDE009FCC78 /* LabelDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F89149F15790DDE009FCC78 /* LabelDemoViewController.xib */; };
+		6F8BCE8517A276370046B03A /* LabelBindingsDemo5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8BCE8317A276370046B03A /* LabelBindingsDemo5ViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6F8BCE8617A276370046B03A /* LabelBindingsDemo5ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8BCE8317A276370046B03A /* LabelBindingsDemo5ViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6F8BCE8717A276370046B03A /* LabelBindingsDemo5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F8BCE8417A276370046B03A /* LabelBindingsDemo5ViewController.xib */; };
+		6F8BCE8817A276370046B03A /* LabelBindingsDemo5ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F8BCE8417A276370046B03A /* LabelBindingsDemo5ViewController.xib */; };
+		6F8BCE8B17A276A40046B03A /* EmployeeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8BCE8A17A276A40046B03A /* EmployeeView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6F8BCE8C17A276A40046B03A /* EmployeeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8BCE8A17A276A40046B03A /* EmployeeView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6F8BCE9517A277080046B03A /* EmployeeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F8BCE9417A277080046B03A /* EmployeeView.xib */; };
+		6F8BCE9617A277080046B03A /* EmployeeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F8BCE9417A277080046B03A /* EmployeeView.xib */; };
+		6F8BCE9917A2772B0046B03A /* TodayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8BCE9817A2772B0046B03A /* TodayView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6F8BCE9A17A2772B0046B03A /* TodayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8BCE9817A2772B0046B03A /* TodayView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6F8BCE9C17A277400046B03A /* TodayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F8BCE9B17A277400046B03A /* TodayView.xib */; };
+		6F8BCE9D17A277400046B03A /* TodayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F8BCE9B17A277400046B03A /* TodayView.xib */; };
+		6F8BCEAF17A279B80046B03A /* YesterdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8BCEAD17A279B70046B03A /* YesterdayView.m */; };
+		6F8BCEB017A279B80046B03A /* YesterdayView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F8BCEAD17A279B70046B03A /* YesterdayView.m */; };
+		6F8BCEB117A279B80046B03A /* YesterdayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F8BCEAE17A279B80046B03A /* YesterdayView.xib */; };
+		6F8BCEB217A279B80046B03A /* YesterdayView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F8BCEAE17A279B80046B03A /* YesterdayView.xib */; };
 		6F9C464C14C5C30C00824AB2 /* CoconutKit_demoAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C459514C5C30B00824AB2 /* CoconutKit_demoAppDelegate.m */; };
 		6F9C464D14C5C30C00824AB2 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F9C459614C5C30B00824AB2 /* MainWindow.xib */; };
 		6F9C464E14C5C30C00824AB2 /* CoconutKit_demoApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F9C459914C5C30B00824AB2 /* CoconutKit_demoApplication.m */; };
@@ -439,6 +455,18 @@
 		6F89149D15790DDE009FCC78 /* LabelDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelDemoViewController.h; sourceTree = "<group>"; };
 		6F89149E15790DDE009FCC78 /* LabelDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelDemoViewController.m; sourceTree = "<group>"; };
 		6F89149F15790DDE009FCC78 /* LabelDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelDemoViewController.xib; sourceTree = "<group>"; };
+		6F8BCE8217A276370046B03A /* LabelBindingsDemo5ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LabelBindingsDemo5ViewController.h; sourceTree = "<group>"; };
+		6F8BCE8317A276370046B03A /* LabelBindingsDemo5ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LabelBindingsDemo5ViewController.m; sourceTree = "<group>"; };
+		6F8BCE8417A276370046B03A /* LabelBindingsDemo5ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LabelBindingsDemo5ViewController.xib; sourceTree = "<group>"; };
+		6F8BCE8917A276A40046B03A /* EmployeeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeView.h; sourceTree = "<group>"; };
+		6F8BCE8A17A276A40046B03A /* EmployeeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeView.m; sourceTree = "<group>"; };
+		6F8BCE9417A277080046B03A /* EmployeeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployeeView.xib; sourceTree = "<group>"; };
+		6F8BCE9717A2772B0046B03A /* TodayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TodayView.h; sourceTree = "<group>"; };
+		6F8BCE9817A2772B0046B03A /* TodayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TodayView.m; sourceTree = "<group>"; };
+		6F8BCE9B17A277400046B03A /* TodayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TodayView.xib; sourceTree = "<group>"; };
+		6F8BCEAC17A279B70046B03A /* YesterdayView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YesterdayView.h; sourceTree = "<group>"; };
+		6F8BCEAD17A279B70046B03A /* YesterdayView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YesterdayView.m; sourceTree = "<group>"; };
+		6F8BCEAE17A279B80046B03A /* YesterdayView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YesterdayView.xib; sourceTree = "<group>"; };
 		6F9C459414C5C30B00824AB2 /* CoconutKit_demoAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoconutKit_demoAppDelegate.h; sourceTree = "<group>"; };
 		6F9C459514C5C30B00824AB2 /* CoconutKit_demoAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoconutKit_demoAppDelegate.m; sourceTree = "<group>"; };
 		6F9C459614C5C30B00824AB2 /* MainWindow.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
@@ -745,6 +773,9 @@
 			children = (
 				6FAE6EC51795C1E8005B468D /* Employee.h */,
 				6FAE6EC61795C1E8005B468D /* Employee.m */,
+				6F8BCE8917A276A40046B03A /* EmployeeView.h */,
+				6F8BCE8A17A276A40046B03A /* EmployeeView.m */,
+				6F8BCE9417A277080046B03A /* EmployeeView.xib */,
 				6F1CE8AF177ED64F0060BC85 /* LabelBindingsDemoViewController.h */,
 				6F1CE8B0177ED64F0060BC85 /* LabelBindingsDemoViewController.m */,
 				6F1CE8B1177ED64F0060BC85 /* LabelBindingsDemoViewController.xib */,
@@ -766,6 +797,15 @@
 				6F78D77717A1815C00C35456 /* LabelBindingsDemo4ViewController.h */,
 				6F78D77817A1815C00C35456 /* LabelBindingsDemo4ViewController.m */,
 				6F78D77917A1815D00C35456 /* LabelBindingsDemo4ViewController.xib */,
+				6F8BCE8217A276370046B03A /* LabelBindingsDemo5ViewController.h */,
+				6F8BCE8317A276370046B03A /* LabelBindingsDemo5ViewController.m */,
+				6F8BCE8417A276370046B03A /* LabelBindingsDemo5ViewController.xib */,
+				6F8BCE9717A2772B0046B03A /* TodayView.h */,
+				6F8BCE9817A2772B0046B03A /* TodayView.m */,
+				6F8BCE9B17A277400046B03A /* TodayView.xib */,
+				6F8BCEAC17A279B70046B03A /* YesterdayView.h */,
+				6F8BCEAD17A279B70046B03A /* YesterdayView.m */,
+				6F8BCEAE17A279B80046B03A /* YesterdayView.xib */,
 			);
 			path = Bindings;
 			sourceTree = "<group>";
@@ -1565,6 +1605,10 @@
 				6F78D76417A179DB00C35456 /* LabelBindingsDemo3InsetViewController.xib in Resources */,
 				6F78D77C17A1815D00C35456 /* LabelBindingsDemo4InsetViewController.xib in Resources */,
 				6F78D78017A1815D00C35456 /* LabelBindingsDemo4ViewController.xib in Resources */,
+				6F8BCE8717A276370046B03A /* LabelBindingsDemo5ViewController.xib in Resources */,
+				6F8BCE9517A277080046B03A /* EmployeeView.xib in Resources */,
+				6F8BCE9C17A277400046B03A /* TodayView.xib in Resources */,
+				6F8BCEB117A279B80046B03A /* YesterdayView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1648,6 +1692,10 @@
 				6F78D76517A179DB00C35456 /* LabelBindingsDemo3InsetViewController.xib in Resources */,
 				6F78D77D17A1815D00C35456 /* LabelBindingsDemo4InsetViewController.xib in Resources */,
 				6F78D78117A1815D00C35456 /* LabelBindingsDemo4ViewController.xib in Resources */,
+				6F8BCE8817A276370046B03A /* LabelBindingsDemo5ViewController.xib in Resources */,
+				6F8BCE9617A277080046B03A /* EmployeeView.xib in Resources */,
+				6F8BCE9D17A277400046B03A /* TodayView.xib in Resources */,
+				6F8BCEB217A279B80046B03A /* YesterdayView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1760,6 +1808,10 @@
 				6F78D76217A179DB00C35456 /* LabelBindingsDemo3InsetViewController.m in Sources */,
 				6F78D77A17A1815D00C35456 /* LabelBindingsDemo4InsetViewController.m in Sources */,
 				6F78D77E17A1815D00C35456 /* LabelBindingsDemo4ViewController.m in Sources */,
+				6F8BCE8517A276370046B03A /* LabelBindingsDemo5ViewController.m in Sources */,
+				6F8BCE8B17A276A40046B03A /* EmployeeView.m in Sources */,
+				6F8BCE9917A2772B0046B03A /* TodayView.m in Sources */,
+				6F8BCEAF17A279B80046B03A /* YesterdayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1838,6 +1890,10 @@
 				6F78D76317A179DB00C35456 /* LabelBindingsDemo3InsetViewController.m in Sources */,
 				6F78D77B17A1815D00C35456 /* LabelBindingsDemo4InsetViewController.m in Sources */,
 				6F78D77F17A1815D00C35456 /* LabelBindingsDemo4ViewController.m in Sources */,
+				6F8BCE8617A276370046B03A /* LabelBindingsDemo5ViewController.m in Sources */,
+				6F8BCE8C17A276A40046B03A /* EmployeeView.m in Sources */,
+				6F8BCE9A17A2772B0046B03A /* TodayView.m in Sources */,
+				6F8BCEB017A279B80046B03A /* YesterdayView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
