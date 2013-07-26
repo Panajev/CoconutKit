@@ -194,12 +194,12 @@
 		6F78D76317A179DB00C35456 /* LabelBindingsDemo3InsetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F78D76017A179DA00C35456 /* LabelBindingsDemo3InsetViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		6F78D76417A179DB00C35456 /* LabelBindingsDemo3InsetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D76117A179DA00C35456 /* LabelBindingsDemo3InsetViewController.xib */; };
 		6F78D76517A179DB00C35456 /* LabelBindingsDemo3InsetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D76117A179DA00C35456 /* LabelBindingsDemo3InsetViewController.xib */; };
-		6F78D77A17A1815D00C35456 /* LabelBindingsDemo4InsetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F78D77517A1815B00C35456 /* LabelBindingsDemo4InsetViewController.m */; };
-		6F78D77B17A1815D00C35456 /* LabelBindingsDemo4InsetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F78D77517A1815B00C35456 /* LabelBindingsDemo4InsetViewController.m */; };
+		6F78D77A17A1815D00C35456 /* LabelBindingsDemo4InsetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F78D77517A1815B00C35456 /* LabelBindingsDemo4InsetViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6F78D77B17A1815D00C35456 /* LabelBindingsDemo4InsetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F78D77517A1815B00C35456 /* LabelBindingsDemo4InsetViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		6F78D77C17A1815D00C35456 /* LabelBindingsDemo4InsetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D77617A1815C00C35456 /* LabelBindingsDemo4InsetViewController.xib */; };
 		6F78D77D17A1815D00C35456 /* LabelBindingsDemo4InsetViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D77617A1815C00C35456 /* LabelBindingsDemo4InsetViewController.xib */; };
-		6F78D77E17A1815D00C35456 /* LabelBindingsDemo4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F78D77817A1815C00C35456 /* LabelBindingsDemo4ViewController.m */; };
-		6F78D77F17A1815D00C35456 /* LabelBindingsDemo4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F78D77817A1815C00C35456 /* LabelBindingsDemo4ViewController.m */; };
+		6F78D77E17A1815D00C35456 /* LabelBindingsDemo4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F78D77817A1815C00C35456 /* LabelBindingsDemo4ViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6F78D77F17A1815D00C35456 /* LabelBindingsDemo4ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F78D77817A1815C00C35456 /* LabelBindingsDemo4ViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
 		6F78D78017A1815D00C35456 /* LabelBindingsDemo4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D77917A1815D00C35456 /* LabelBindingsDemo4ViewController.xib */; };
 		6F78D78117A1815D00C35456 /* LabelBindingsDemo4ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F78D77917A1815D00C35456 /* LabelBindingsDemo4ViewController.xib */; };
 		6F8914A015790DDE009FCC78 /* LabelDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F89149E15790DDE009FCC78 /* LabelDemoViewController.m */; };
