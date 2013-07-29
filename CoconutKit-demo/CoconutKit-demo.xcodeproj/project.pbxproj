@@ -178,6 +178,18 @@
 		6F507D6E14BB742800D54088 /* DemoTable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6F507D6C14BB742800D54088 /* DemoTable.strings */; };
 		6F53B63516FA321000E01781 /* DemoColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F53B63416FA321000E01781 /* DemoColors.m */; };
 		6F53B63616FA321000E01781 /* DemoColors.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F53B63416FA321000E01781 /* DemoColors.m */; };
+		6F56A70B17A2CF4200CE771A /* TableViewBindingsDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F56A70917A2CF3D00CE771A /* TableViewBindingsDemoViewController.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6F56A70C17A2CF4200CE771A /* TableViewBindingsDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F56A70917A2CF3D00CE771A /* TableViewBindingsDemoViewController.m */; settings = {COMPILER_FLAGS = "-fobj-arc"; }; };
+		6F56A70D17A2CF4200CE771A /* TableViewBindingsDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F56A70A17A2CF4000CE771A /* TableViewBindingsDemoViewController.xib */; };
+		6F56A70E17A2CF4200CE771A /* TableViewBindingsDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F56A70A17A2CF4000CE771A /* TableViewBindingsDemoViewController.xib */; };
+		6F56A71117A2CFD100CE771A /* EmployeeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F56A71017A2CFCF00CE771A /* EmployeeTableViewCell.m */; settings = {COMPILER_FLAGS = "-fobj-arc"; }; };
+		6F56A71217A2CFD100CE771A /* EmployeeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F56A71017A2CFCF00CE771A /* EmployeeTableViewCell.m */; };
+		6F56A71417A2CFEA00CE771A /* EmployeeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F56A71317A2CFE900CE771A /* EmployeeTableViewCell.xib */; };
+		6F56A71517A2CFEA00CE771A /* EmployeeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F56A71317A2CFE900CE771A /* EmployeeTableViewCell.xib */; };
+		6F56A71717A2D00900CE771A /* EmployeeHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F56A71617A2D00700CE771A /* EmployeeHeaderView.xib */; };
+		6F56A71817A2D00900CE771A /* EmployeeHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F56A71617A2D00700CE771A /* EmployeeHeaderView.xib */; };
+		6F56A71B17A2D03E00CE771A /* EmployeeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F56A71A17A2D03B00CE771A /* EmployeeHeaderView.m */; settings = {COMPILER_FLAGS = "-fobjc-arc"; }; };
+		6F56A71C17A2D03E00CE771A /* EmployeeHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F56A71A17A2D03B00CE771A /* EmployeeHeaderView.m */; };
 		6F5A0BB41509D19300A20DFF /* SlideshowDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A0BB21509D19300A20DFF /* SlideshowDemoViewController.m */; };
 		6F5A0BB51509D19300A20DFF /* SlideshowDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F5A0BB31509D19300A20DFF /* SlideshowDemoViewController.xib */; };
 		6F6B0C9C16B3DACF006B718F /* InnerFolder in Resources */ = {isa = PBXBuildFile; fileRef = 6F6B0C9B16B3DACF006B718F /* InnerFolder */; };
@@ -432,6 +444,15 @@
 		6F507D6F14BB743000D54088 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/DemoTable.strings; sourceTree = "<group>"; };
 		6F53B63316FA321000E01781 /* DemoColors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoColors.h; sourceTree = "<group>"; };
 		6F53B63416FA321000E01781 /* DemoColors.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoColors.m; sourceTree = "<group>"; };
+		6F56A70817A2CF3C00CE771A /* TableViewBindingsDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewBindingsDemoViewController.h; sourceTree = "<group>"; };
+		6F56A70917A2CF3D00CE771A /* TableViewBindingsDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewBindingsDemoViewController.m; sourceTree = "<group>"; };
+		6F56A70A17A2CF4000CE771A /* TableViewBindingsDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewBindingsDemoViewController.xib; sourceTree = "<group>"; };
+		6F56A70F17A2CFCE00CE771A /* EmployeeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeTableViewCell.h; sourceTree = "<group>"; };
+		6F56A71017A2CFCF00CE771A /* EmployeeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeTableViewCell.m; sourceTree = "<group>"; };
+		6F56A71317A2CFE900CE771A /* EmployeeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployeeTableViewCell.xib; sourceTree = "<group>"; };
+		6F56A71617A2D00700CE771A /* EmployeeHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EmployeeHeaderView.xib; sourceTree = "<group>"; };
+		6F56A71917A2D03A00CE771A /* EmployeeHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmployeeHeaderView.h; sourceTree = "<group>"; };
+		6F56A71A17A2D03B00CE771A /* EmployeeHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmployeeHeaderView.m; sourceTree = "<group>"; };
 		6F5A0BB11509D19300A20DFF /* SlideshowDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideshowDemoViewController.h; sourceTree = "<group>"; };
 		6F5A0BB21509D19300A20DFF /* SlideshowDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideshowDemoViewController.m; sourceTree = "<group>"; };
 		6F5A0BB31509D19300A20DFF /* SlideshowDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideshowDemoViewController.xib; sourceTree = "<group>"; };
@@ -773,6 +794,12 @@
 			children = (
 				6FAE6EC51795C1E8005B468D /* Employee.h */,
 				6FAE6EC61795C1E8005B468D /* Employee.m */,
+				6F56A70F17A2CFCE00CE771A /* EmployeeTableViewCell.h */,
+				6F56A71017A2CFCF00CE771A /* EmployeeTableViewCell.m */,
+				6F56A71317A2CFE900CE771A /* EmployeeTableViewCell.xib */,
+				6F56A71917A2D03A00CE771A /* EmployeeHeaderView.h */,
+				6F56A71A17A2D03B00CE771A /* EmployeeHeaderView.m */,
+				6F56A71617A2D00700CE771A /* EmployeeHeaderView.xib */,
 				6F8BCE8917A276A40046B03A /* EmployeeView.h */,
 				6F8BCE8A17A276A40046B03A /* EmployeeView.m */,
 				6F8BCE9417A277080046B03A /* EmployeeView.xib */,
@@ -800,6 +827,9 @@
 				6F8BCE8217A276370046B03A /* LabelBindingsDemo5ViewController.h */,
 				6F8BCE8317A276370046B03A /* LabelBindingsDemo5ViewController.m */,
 				6F8BCE8417A276370046B03A /* LabelBindingsDemo5ViewController.xib */,
+				6F56A70817A2CF3C00CE771A /* TableViewBindingsDemoViewController.h */,
+				6F56A70917A2CF3D00CE771A /* TableViewBindingsDemoViewController.m */,
+				6F56A70A17A2CF4000CE771A /* TableViewBindingsDemoViewController.xib */,
 				6F8BCE9717A2772B0046B03A /* TodayView.h */,
 				6F8BCE9817A2772B0046B03A /* TodayView.m */,
 				6F8BCE9B17A277400046B03A /* TodayView.xib */,
@@ -1609,6 +1639,9 @@
 				6F8BCE9517A277080046B03A /* EmployeeView.xib in Resources */,
 				6F8BCE9C17A277400046B03A /* TodayView.xib in Resources */,
 				6F8BCEB117A279B80046B03A /* YesterdayView.xib in Resources */,
+				6F56A70D17A2CF4200CE771A /* TableViewBindingsDemoViewController.xib in Resources */,
+				6F56A71417A2CFEA00CE771A /* EmployeeTableViewCell.xib in Resources */,
+				6F56A71717A2D00900CE771A /* EmployeeHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1696,6 +1729,9 @@
 				6F8BCE9617A277080046B03A /* EmployeeView.xib in Resources */,
 				6F8BCE9D17A277400046B03A /* TodayView.xib in Resources */,
 				6F8BCEB217A279B80046B03A /* YesterdayView.xib in Resources */,
+				6F56A70E17A2CF4200CE771A /* TableViewBindingsDemoViewController.xib in Resources */,
+				6F56A71517A2CFEA00CE771A /* EmployeeTableViewCell.xib in Resources */,
+				6F56A71817A2D00900CE771A /* EmployeeHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1812,6 +1848,9 @@
 				6F8BCE8B17A276A40046B03A /* EmployeeView.m in Sources */,
 				6F8BCE9917A2772B0046B03A /* TodayView.m in Sources */,
 				6F8BCEAF17A279B80046B03A /* YesterdayView.m in Sources */,
+				6F56A70B17A2CF4200CE771A /* TableViewBindingsDemoViewController.m in Sources */,
+				6F56A71117A2CFD100CE771A /* EmployeeTableViewCell.m in Sources */,
+				6F56A71B17A2D03E00CE771A /* EmployeeHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1894,6 +1933,9 @@
 				6F8BCE8C17A276A40046B03A /* EmployeeView.m in Sources */,
 				6F8BCE9A17A2772B0046B03A /* TodayView.m in Sources */,
 				6F8BCEB017A279B80046B03A /* YesterdayView.m in Sources */,
+				6F56A70C17A2CF4200CE771A /* TableViewBindingsDemoViewController.m in Sources */,
+				6F56A71217A2CFD100CE771A /* EmployeeTableViewCell.m in Sources */,
+				6F56A71C17A2D03E00CE771A /* EmployeeHeaderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
