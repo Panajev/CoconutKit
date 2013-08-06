@@ -312,6 +312,8 @@
 		6F56A72A17A2D08A00CE771A /* EmployeeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F56A72217A2D08900CE771A /* EmployeeTableViewCell.xib */; };
 		6F5A0BAE1509D17B00A20DFF /* SlideshowDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5A0BAC1509D17B00A20DFF /* SlideshowDemoViewController.m */; };
 		6F5A0BAF1509D17B00A20DFF /* SlideshowDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6F5A0BAD1509D17B00A20DFF /* SlideshowDemoViewController.xib */; };
+		6F5B41F117B0F3F00078B260 /* UIWebView+HLSViewBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5B41F017B0F3F00078B260 /* UIWebView+HLSViewBinding.m */; };
+		6F5B41F217B0F3F00078B260 /* UIWebView+HLSViewBinding.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F5B41F017B0F3F00078B260 /* UIWebView+HLSViewBinding.m */; };
 		6F6010F015ABEC8D00A9FEC5 /* HLSContainerStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6010EF15ABEC8C00A9FEC5 /* HLSContainerStack.m */; };
 		6F6010F115ABEC8D00A9FEC5 /* HLSContainerStack.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6010EF15ABEC8C00A9FEC5 /* HLSContainerStack.m */; };
 		6F66181B16C14B7400303628 /* UIView+HLSRuntimeAttributes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F66181A16C14B7400303628 /* UIView+HLSRuntimeAttributes.m */; };
@@ -729,6 +731,8 @@
 		6F5A0BAB1509D17B00A20DFF /* SlideshowDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideshowDemoViewController.h; sourceTree = "<group>"; };
 		6F5A0BAC1509D17B00A20DFF /* SlideshowDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SlideshowDemoViewController.m; sourceTree = "<group>"; };
 		6F5A0BAD1509D17B00A20DFF /* SlideshowDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SlideshowDemoViewController.xib; sourceTree = "<group>"; };
+		6F5B41EF17B0F3F00078B260 /* UIWebView+HLSViewBinding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+HLSViewBinding.h"; sourceTree = "<group>"; };
+		6F5B41F017B0F3F00078B260 /* UIWebView+HLSViewBinding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+HLSViewBinding.m"; sourceTree = "<group>"; };
 		6F6010EE15ABEC8C00A9FEC5 /* HLSContainerStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HLSContainerStack.h; sourceTree = "<group>"; };
 		6F6010EF15ABEC8C00A9FEC5 /* HLSContainerStack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HLSContainerStack.m; sourceTree = "<group>"; };
 		6F66181916C14B7300303628 /* UIView+HLSRuntimeAttributes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+HLSRuntimeAttributes.h"; sourceTree = "<group>"; };
@@ -1467,6 +1471,8 @@
 				6FA0650417799D910097582B /* UIViewController+HLSViewBinding.h */,
 				6FA0650517799D910097582B /* UIViewController+HLSViewBinding.m */,
 				6F10E3C117A1242000BFEF42 /* UIViewController+HLSViewBindingFriend.h */,
+				6F5B41EF17B0F3F00078B260 /* UIWebView+HLSViewBinding.h */,
+				6F5B41F017B0F3F00078B260 /* UIWebView+HLSViewBinding.m */,
 			);
 			path = Bindings;
 			sourceTree = "<group>";
@@ -2733,6 +2739,7 @@
 				6F56A70417A2CE8900CE771A /* TableViewBindingsDemoViewController.m in Sources */,
 				6F56A72317A2D08A00CE771A /* EmployeeHeaderView.m in Sources */,
 				6F56A72717A2D08A00CE771A /* EmployeeTableViewCell.m in Sources */,
+				6F5B41F117B0F3F00078B260 /* UIWebView+HLSViewBinding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2922,6 +2929,7 @@
 				6F56A70517A2CE8900CE771A /* TableViewBindingsDemoViewController.m in Sources */,
 				6F56A72417A2D08A00CE771A /* EmployeeHeaderView.m in Sources */,
 				6F56A72817A2D08A00CE771A /* EmployeeTableViewCell.m in Sources */,
+				6F5B41F217B0F3F00078B260 /* UIWebView+HLSViewBinding.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
